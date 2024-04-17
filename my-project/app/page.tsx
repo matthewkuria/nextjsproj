@@ -1,12 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 import Image from "next/image";
 
 export default function Home() {
   const [inputVal, setInputVal] = useState("")
   console.log(inputVal)
-  const handleSubmit = (e) =>{
+  const handleSubmit = (e: FormEvent) =>{
     e.preventDefault();
   }
   return (
