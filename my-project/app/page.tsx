@@ -1,6 +1,10 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
 export default function Home() {
+  const [inputVal, setInputVal] = useState("")
   return (
   <div className=" h-full w-full">
 
