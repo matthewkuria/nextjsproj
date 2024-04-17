@@ -2,10 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <div className="bg-blue h-full w-full">
-      <h1 className="font-bold underline text-lg text-red-600">
-      Hello Matt!
-    </h1>
+  <div className="bg-black h-full w-full">
+
+    <div className="">
+      <h1>Enter Your Name</h1>
+    </div>
+    <form action="">
+      <input type="text" placeholder="Type Your Name..." />
+    </form>
   </div>
       );
 }
