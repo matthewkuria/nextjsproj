@@ -13,7 +13,7 @@ export default function Home() {
   <div className=" h-full w-full">
 
     <div className="">
-      <h1>Enter Your Name</h1>
+      <h1>Enter Your Name:</h1>
     </div>
     <form action="" onSubmit={handleSubmit}>
       <input type="text"
