@@ -11,7 +11,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
      <h1 className="text-green-500">Hello Matt!</h1>
      <p className="">{count}</p>
-     <Button >Click Me</Button>
+     <Button onClick={handleClick} >Click Me</Button>
     </main>
   );
 }
